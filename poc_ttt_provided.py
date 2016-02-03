@@ -158,6 +158,7 @@ def play_game(mc_move_function, ntrials, reverse = False):
     
     # Run game
     while winner == None:
+    # for i in range(1):
         # Move
         row, col = mc_move_function(board, curplayer, ntrials)
         board.move(row, col, curplayer)
